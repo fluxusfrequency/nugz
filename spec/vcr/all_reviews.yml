@@ -1,0 +1,104 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.milehighbuzz.co/api/v1/reviews
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Status:
+      - 200 OK
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Ua-Compatible:
+      - chrome=1
+      Etag:
+      - '"fd189aed31e4867da39bf3b776e2d18d"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - e26b87f6-4b6a-4ced-9c78-624147761e91
+      X-Runtime:
+      - '0.014526'
+      X-Powered-By:
+      - Phusion Passenger 4.0.35
+      Date:
+      - Thu, 23 Jan 2014 23:27:56 GMT
+      Server:
+      - nginx/1.4.4 + Phusion Passenger 4.0.35
+    body:
+      encoding: UTF-8
+      string: '[{"id":6,"user_id":3,"store_id":69,"rating":"Thumbs Up","title":"Great
+        Buds","body":"This was a very nice experience. Very heady with raspberry and
+        rose petal overtones. Recommended.","created_at":"2014-01-20T18:05:21.651Z","updated_at":"2014-01-20T18:05:21.651Z"},{"id":7,"user_id":1,"store_id":69,"rating":"Thumbs
+        Down","title":"Poor Buds","body":"This was a very bad experience. Very skunky
+        without much of a buzz. Not recommended.","created_at":"2014-01-20T18:05:21.651Z","updated_at":"2014-01-20T18:05:21.651Z"},{"id":8,"user_id":1,"store_id":122,"rating":"Thumbs
+        Up","title":"Pretty great!","body":"Wonderful service and attention to detail","created_at":"2014-01-22T01:13:55.238Z","updated_at":"2014-01-22T01:13:55.238Z"},{"id":9,"user_id":4,"store_id":72,"rating":"Thumbs
+        Down","title":"Harsh Buzz","body":"Did not enjoy this. I wouldn''t come back.
+        ","created_at":"2014-01-22T01:28:11.695Z","updated_at":"2014-01-22T01:28:11.695Z"},{"id":11,"user_id":4,"store_id":106,"rating":"Thumbs
+        Up","title":"Would go back again","body":"LOVED the crew! Super nice \u0026
+        helpful!! \u0026 they said this is one of there smallest locations!!! It was
+        like a clean, organized \"weedland\"!!","created_at":"2014-01-22T01:39:08.268Z","updated_at":"2014-01-22T01:39:08.268Z"},{"id":12,"user_id":5,"store_id":72,"rating":"Thumbs
+        Down","title":"HARSHING MY MELLLLLLLLLLLLLLLOW!","body":"#swag, #this_place_is_bunk,
+        #not_chron\r\n","created_at":"2014-01-22T01:44:49.604Z","updated_at":"2014-01-22T01:44:49.604Z"},{"id":13,"user_id":5,"store_id":72,"rating":"Thumbs
+        Up","title":"Bomb nuggets and hot budtenders","body":"Love this place! Bomb-diggit","created_at":"2014-01-22T01:46:07.493Z","updated_at":"2014-01-22T01:46:07.493Z"},{"id":14,"user_id":8,"store_id":72,"rating":"Thumbs
+        Up","title":"uhhh I forgot","body":"I think it was good...","created_at":"2014-01-23T01:11:35.344Z","updated_at":"2014-01-23T01:11:35.344Z"},{"id":15,"user_id":6,"store_id":79,"rating":"Thumbs
+        Up","title":"It made me feel well","body":"Well well, I feel much better now.","created_at":"2014-01-23T02:06:38.022Z","updated_at":"2014-01-23T02:06:38.022Z"},{"id":16,"user_id":6,"store_id":129,"rating":"Thumbs
+        Down","title":"It burns!","body":"Not suggested :\u003C","created_at":"2014-01-23T02:07:20.601Z","updated_at":"2014-01-23T02:07:20.601Z"},{"id":17,"user_id":6,"store_id":97,"rating":"Thumbs
+        Up","title":"Denver''s best kept secret","body":"You should go check this
+        out right away! I''ve never been so high in my life!","created_at":"2014-01-23T02:08:17.281Z","updated_at":"2014-01-23T02:08:17.281Z"},{"id":18,"user_id":1,"store_id":69,"rating":"Thumbs
+        Up","title":"Really Great!","body":"The staff is extremely knowledgeable about
+        all their products and their OG 18 tested highest in THC in High Times Magazine
+        ever! ","created_at":"2014-01-23T15:59:48.525Z","updated_at":"2014-01-23T15:59:48.525Z"},{"id":19,"user_id":7,"store_id":129,"rating":"Thumbs
+        Up","title":"Great Service, awesome menu!","body":"The staff here was really
+        helpful and was able to hook me up with some of the stinkiest Hindu Kush I
+        have ever had! Service with a smile!","created_at":"2014-01-23T16:33:48.375Z","updated_at":"2014-01-23T16:33:48.375Z"},{"id":20,"user_id":7,"store_id":97,"rating":"Thumbs
+        Up","title":"Mad Greenzzzzzz!","body":"Yo, the weed here was off the heezy
+        fo sheezy! I''ll definitely be back for some dank chronic!","created_at":"2014-01-23T16:37:26.968Z","updated_at":"2014-01-23T16:37:26.968Z"},{"id":21,"user_id":1,"store_id":86,"rating":"Thumbs
+        Up","title":"Totally Kush","body":"The shag carpet walls were a real treat","created_at":"2014-01-23T17:08:02.744Z","updated_at":"2014-01-23T17:08:02.744Z"},{"id":22,"user_id":1,"store_id":129,"rating":"Thumbs
+        Up","title":"The burn was mellow!","body":"Great experience","created_at":"2014-01-23T17:09:15.753Z","updated_at":"2014-01-23T17:09:15.753Z"},{"id":23,"user_id":11,"store_id":103,"rating":"Thumbs
+        Up","title":"Potent Strains!","body":"Great location and friendly service.
+        Definitely the best marijuana for the price. All strains are highly potent.
+        The Green Crack is my fav!","created_at":"2014-01-23T17:18:56.552Z","updated_at":"2014-01-23T17:18:56.552Z"},{"id":24,"user_id":11,"store_id":86,"rating":"Thumbs
+        Up","title":"Go with the Flo!","body":"The Flo strain is off the hook! Great
+        service and knowledgeable staff.","created_at":"2014-01-23T17:54:05.966Z","updated_at":"2014-01-23T17:54:05.966Z"},{"id":25,"user_id":6,"store_id":102,"rating":"Thumbs
+        Up","title":"The best alternative","body":"I''ve been to a lot of dispensaries
+        where the medicine was just so-so. These products are potent! Watch out!","created_at":"2014-01-23T22:25:11.999Z","updated_at":"2014-01-23T22:25:11.999Z"},{"id":26,"user_id":4,"store_id":81,"rating":"Thumbs
+        Up","title":"Impressed","body":"I go there almost daily. Great place. Very
+        good kind people working there everyday I highly recommend their Med. Products.","created_at":"2014-01-23T22:27:17.393Z","updated_at":"2014-01-23T22:27:17.393Z"},{"id":27,"user_id":6,"store_id":86,"rating":"Thumbs
+        Down","title":"Not so much","body":"I thought this place was supposed to have
+        good service. Couldn''t get a J to save my life. :(","created_at":"2014-01-23T22:30:58.804Z","updated_at":"2014-01-23T22:30:58.804Z"},{"id":28,"user_id":1,"store_id":122,"rating":"Thumbs
+        Up","title":"Great Quality","body":"The level of quality in their products
+        are always Consistent and effective. A tremendous Level of customer service
+        every time I go in. ","created_at":"2014-01-23T22:31:31.661Z","updated_at":"2014-01-23T22:31:31.661Z"},{"id":29,"user_id":1,"store_id":75,"rating":"Thumbs
+        Up","title":"Love Lemon G","body":"Remember that feeling of eating lemon drops
+        as a kid? It''s like that, but for adults.","created_at":"2014-01-23T22:39:27.344Z","updated_at":"2014-01-23T22:39:27.344Z"},{"id":30,"user_id":6,"store_id":110,"rating":"Thumbs
+        Up","title":"Really advanced!","body":"The breeding of these strains is really
+        advanced. Thank goodness for modern technology!","created_at":"2014-01-23T23:18:11.555Z","updated_at":"2014-01-23T23:18:11.555Z"},{"id":31,"user_id":7,"store_id":110,"rating":"Thumbs
+        Down","title":"This is an awful joint!","body":"Staff was was friendly, but
+        prices and chronic selection was weak. ","created_at":"2014-01-23T23:25:18.235Z","updated_at":"2014-01-23T23:25:18.235Z"}]'
+    http_version: 
+  recorded_at: Thu, 23 Jan 2014 23:27:58 GMT
+recorded_with: VCR 2.8.0
